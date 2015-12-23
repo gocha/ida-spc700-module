@@ -330,8 +330,6 @@ static const bytes_t retcodes[] =
 //      Processor Definition
 //-----------------------------------------------------------------------
 
-#define PLFM_SPC700	0x816A
-
 processor_t LPH =
 {
   IDP_INTERFACE_VERSION,// version
