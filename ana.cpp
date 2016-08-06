@@ -261,7 +261,7 @@ static const struct opcode_info_t opinfos[] =
   DI(SPC_sta,   2, DP,           -1,   rA)
   DI(SPC_sta,   3, ABS,          -1,   rA)
   DI(SPC_sta,   1, INDIR_IX,     -1,   rA)
-  DI(SPC_sta,   2, DP_IX_INDIR,  -1,   rX)
+  DI(SPC_sta,   2, DP_IX_INDIR,  -1,   rA)
 
   // 0xc8
   DI(SPC_cpx,   2, IMM,          rX,   -1)
